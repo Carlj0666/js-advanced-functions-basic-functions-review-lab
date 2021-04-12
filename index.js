@@ -37,3 +37,14 @@ function actionApplyer(startInt, actions) {
   }
   return actions.reduce(callActionOnAccumulator, startInt)
 }
+
+//solution
+// let actionApplyer = function(start, ray) {
+//   let a = start
+
+//   for (let i = 0; i < ray.length; i++ ){
+//     a = ray[i](a)
+//   }
+
+//   return a
+// }
